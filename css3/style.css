@@ -1,0 +1,482 @@
+/*-- ----------------------------- --
+  -- ---- ALUNO: TONIVAN JOSE ---- --
+  -- ----------------------------- --*/
+/* Resetando o códigos do site */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Open Sans", arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Esterelizando o cabeçario do site */
+.div-header {
+    display: block;
+    background-color: #ffffff;
+    height: 176px;
+    max-width: 100%;
+}
+
+.aba-promocao {
+    background-color: #008F43;
+    height: 33px;
+    width: 100%;
+}
+.aba-promocao p {
+    color: #F9E106;
+    text-align: center;
+    padding: 8px;
+}
+
+.cabecario {
+    display: flex;
+    height: 80px;
+    width: 1240px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    /* background-color: antiquewhite; */
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.cabecario .logo {
+    display: block;
+    width: 163;
+    max-width: 100%;
+    height: 40px;
+    margin-bottom: 2px;
+}
+
+.div-pesquisa {
+    display: block;
+    width: 830px;
+    max-width: 100%;
+    height: 40px;
+}
+
+.div-pesquisa > form > input {
+    width: 830px;
+    max-width: 100%;
+    height: 40px;
+}
+
+.div-pesquisa form > input[type=search] {
+    background: #fff url(../image/icons/search.png) 798px 7px no-repeat ;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 0 1px 0;
+    font-size: 0.9rem;
+    color: #a7a7a7;
+    border: 0 none;
+    border-bottom: 2px solid #a7a7a7;
+}
+
+/*Esterelizando a seção de perfil, sacola, favoritos */
+.menu-funcional {
+    display: flex;
+    width: 140px;
+    justify-content: space-between;
+}
+
+.menu-funcional div > img {
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+
+/* menu de navegação */
+.nav {
+    background-color: #E3E3E3;
+    height: 43px;
+    width: 1240px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* menu de navegação */
+.nav ul {
+    display: flex;
+    margin-top: 5px;
+}
+
+.nav ul > li {
+    padding: 10px 10px 0 10px;
+}
+
+.nav ul li > a {
+    color: rgb(33, 33, 33);
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+/*Esterelização das páginas CATEGORIAIS */
+.main-pai {
+    /* background-color: #afafaf; */
+    margin: 0 auto;
+    width:1240px;
+    max-width: 100%;
+    display: flex;
+}
+
+/*esterelização do aside lateral do site*/
+.div-aside {
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+}
+
+/* navegação do aside */
+.nev-aside, .div-tamnho {
+    margin: 0 0 20px 0;
+    padding: 10px 0 40px 0;
+    border-bottom: 1px solid #bdbdbd;
+}
+
+.nev-aside h3, .div-tamnho h3 {
+    color: rgb(51, 51, 51);
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.div-aside h4 {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.div-aside h4 > a {
+    color:  rgb(33, 33, 33);
+}
+
+.div-aside ul {
+    display: block;
+    padding-left: 20px;
+}
+
+.div-aside ul li {
+    padding: 8px 0;
+}
+
+.div-aside ul li a {
+    color:  rgb(33, 33, 33);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* seção de escolher tamnahos */
+.div-tamnho {
+    display: block;
+}
+
+.div-tamanhos {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.div-tamanhos .tam {
+    width: 38px;
+    height: 38px;
+    border-radius: 20px;
+    color: #727272;
+    font-size: 12px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 400;
+    margin: 5px;
+    border: 1px solid rgb(114, 114, 114);
+    cursor: pointer;
+}
+
+/* VETRINES */
+.section-catg {
+    display: block;
+    margin-left: 20px;
+    width: 1020px;
+}
+
+.div-filtrar, .top-title {
+    border-bottom: 1px solid #bdbdbd;
+    margin: 20px 0;
+    padding-bottom: 5px;
+    color: rgb(51, 51, 51);
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 14px;
+    font-family: "Open Sans", arial, sans-serif;
+}
+
+.div-coluna-catg {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.vetrine {
+    width: 231px;
+    padding-bottom: 20px;
+}
+
+.vetrine > img {
+    display: block;
+    width: 231px;
+    max-width: 100%;
+}
+
+/* seção principal do site */
+.div-slider-alinhamento {
+    max-width: 100%;
+    height: 340px;
+    background-color: #F8F8F8;
+}
+
+.div-slider {
+    display: block;
+    width: 1240px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.div-slider > img {
+    display: block;
+    width: 1240px;
+    max-width: 100%;
+    height: 100%;
+    padding-top: 10px;
+}
+/* fim dos stylo dos silde */
+.section-main {
+    width: 1240px;
+    max-width: 100%;
+    margin: 30px auto;
+}
+
+.div-coluna-vitrine {
+    /* background-color: #ccc; */
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.div-coluna-vitrine > div {
+    flex: 1 1 200px;
+    padding: 10px;
+}
+
+.div-coluna-vitrine > div p {
+    padding: 5px 0;
+    font-size: 1rem;
+}
+
+.div-coluna-vitrine > div p a {
+    color: #3D3D3D;
+}
+
+.div-coluna-vitrine > div .preco {
+    font-size: 1.1rem;
+    color: #000;
+}
+
+/*Slider segundários*/
+.div-slider-secundario {
+    display: flex;
+    width: 1240px;
+    max-width: 100%;
+    margin:  0 auto;
+    background-color: #ccc;
+}
+
+.div-img01  {
+    display: block;
+    padding-right: 10px;
+}
+
+.div-img02  {
+    display: block;
+    padding-left: 10px;
+}
+/*Fim Slider segundários*/
+
+/*Formulario de capitura de email neswletter*/
+.alin-newsletter {
+    background-color: #F8F8F8;
+    display: block;
+    padding: 35px 0;
+    margin: 40px 0;
+}
+
+.newsletter {
+    display: block;
+    width:  600px;
+    max-width: 100%;
+    height: 77px;
+    margin:  0 auto;
+    /*background-color: #ccc;*/
+}
+
+.newsletter > h4 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #545454;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsletter form > input[type=nome] {
+    outline: none;
+    padding: 15px 0 1px 0;
+    font-size: 0.9rem;
+    color: #a7a7a7;
+    border: 0 none;
+    border-bottom: 1px solid #a7a7a7;
+    margin-right: 5px;
+    background-color: #F8F8F8;
+    width: 100%;
+}
+
+.newsletter form > input[type=email] {
+    outline: none;
+    padding: 15px 0 1px 0;
+    font-size: 0.9rem;
+    color: #a7a7a7;
+    border: 0 none;
+    border-bottom: 1px solid #a7a7a7;
+    margin-left: 5px;
+    background-color: #F8F8F8;
+    width: 100%;
+}
+
+.newsletter form > button {
+    border: 0 none;
+    border-radius: 30px;
+    margin-left: 5px;
+    width: 75px;
+    background-color: #FE950C;
+    color: #fff;
+    cursor: pointer;
+}
+/*fim formulario newsletter*/
+
+/*Esterelizando o rodapé footer*/
+footer {
+    display: block;
+    background-color: #F8F8F8;
+}
+
+/*seção de listas importantes*/
+footer .rodape-redes {
+    display: block;
+    width: 200px;
+    /*background: #ccc;*/
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+footer .rodape-redes h3 {
+    text-align: center;
+    color: #545454;
+}
+
+footer .redes-sociais {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .redes-sociais a {
+    padding: 8px;
+    margin: 5px;
+    text-align: center;
+}
+
+footer .menu-footer {
+    display: flex;
+    width: 1240px;
+    margin: 20px auto;
+    /*background-color: #ccc;*/
+    justify-content: space-between;
+    border-bottom: 1px solid #a7a7a7;
+    padding-bottom: 40px;
+}
+
+footer .menu-footer h4 {
+    color: #545454;
+}
+
+footer .menu-footer li {
+    padding-top: 5px;
+}
+
+footer .menu-footer li a {
+    color: #545454;
+    font-size: 1rem;
+}
+/*fim seção de listas importantes*/
+
+/*Esterelizando seçã forma de pagamentos*/
+footer .footer-pagamento h4 {
+    color: #545454;
+}
+footer .footer-pagamento ul {
+    display: flex;
+    margin: 10px 10px 10px 0;
+}
+
+footer .footer-pagamento ul li img {
+    display: block;
+    width: 56px;
+    max-width: 100%;
+    height: 32px;
+    border: 1px solid #a7a7a7;
+    margin: 0 5px 0 0;
+}
+
+footer .segury h4 {
+    color: #545454;
+}
+
+footer .segury > img {
+    display: block;
+    width: 190px;
+    max-width: 100%;
+    height: 32px;
+    padding: 5px 0;
+    margin: 10px 0;
+}
+
+footer .footer-rodape {
+    display: flex;
+    width: 1240px;
+    max-width: 100%;
+    margin: 40px auto;
+}
+
+footer .logo-rodape img {
+    width: 160px;
+    max-width: 100%;
+    height: 35px;
+}
+
+footer .info-rodape {
+    display: block;
+    width: 600px;
+    margin-left: 10px;
+}
+
+footer .info-rodape p {
+    text-align: justify;
+    font-size: 0.9rem;
+    color: #545454;
+}
