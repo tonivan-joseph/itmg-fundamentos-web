@@ -205,7 +205,7 @@ img {
     border-bottom: 1px solid #bdbdbd;
 }
 
-.div-marcas h3, .div-cores h3 {
+.div-marcas h3, .div-cores {
     color: rgb(51, 51, 51);
     font-size: 17px;
     font-weight: 600;
@@ -410,6 +410,84 @@ img {
     cursor: pointer;
 }
 /*fim formulario newsletter*/
+
+/* Esterelização de formulários da página CONTATOS */
+
+.section-form {
+    display: block;
+    width: 1020px;
+    max-width: 100%;
+    /* background-color: #F8F8F8; */
+    margin: 20px 0 0px 20px;
+}
+
+.section-form h2 {
+    text-align: left;
+    font-weight: 500;
+    padding: 5px 0 10px 0;
+    color: rgb(51, 51, 51);
+}
+
+.section-form h3 {
+    text-align: left;
+    padding: 0 0 10px 0;
+    color:rgb(51, 51, 51);
+    font-weight: 500;
+}
+
+.div-form {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    border: 1px solid #727272;
+    margin: 20px 0 20px 0;
+}
+
+.div-form label {
+    padding: 10px 0 5px 0;
+    font-size: 17px;
+    color: rgb(51, 51, 51);
+}
+
+.div-form input {
+    width: 500px;
+    max-width: 100%;
+    padding: 10px 5px 3px 3px;
+    border-radius: 3px;
+    outline: none;
+    border: 0 none;
+    border-bottom: 1px solid #727272;
+    color: #727272;
+    font-size: 1.2rem;
+}
+
+.div-form > textarea {
+    width: 500px;
+    max-width: 100%;
+    height: 200px;
+    padding: 10px 5px 5px 5px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    outline: none;/*tira o efeito fo hover padrão no formulario quem vem do navegador*/
+    color: #727272;
+    font-size: 1.1rem;
+}
+
+.div-form > button {
+    cursor: pointer;
+    width: 200px;
+    padding: 10px 5px;
+    background-color: #FE950C;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 1.5rem;
+    border: none;
+    margin: 10px 0 20px 0;
+} 
+
+.div-form > button:hover {
+    background-color: #b16400;
+}
 
 /*Esterelizando o rodapé footer*/
 footer {
