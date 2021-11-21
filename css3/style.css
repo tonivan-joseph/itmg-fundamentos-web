@@ -145,7 +145,7 @@ img {
 
 .nev-aside h3, .div-tamnho h3 {
     color: rgb(51, 51, 51);
-    font-size: 17px;
+    font-size: 19px;
     font-weight: 600;
     margin-bottom: 20px;
 }
@@ -205,23 +205,30 @@ img {
     border-bottom: 1px solid #bdbdbd;
 }
 
-.div-marcas h3, .div-cores {
+.div-marcas h3, .div-cores h3 {
     color: rgb(51, 51, 51);
-    font-size: 17px;
+    font-size: 19px;
     font-weight: 600;
     margin-bottom: 20px;
 }
 
+.div-marcas, .div-cores {
+    color: rgb(51, 51, 51);
+    font-size: 16px;
+    font-weight: 600;
+}
+
 .chbox-marcas {
-    margin: 6px 0;
+    display: flex;
+    margin-top: 10px;
 }
 
 .chbox-marcas input[type=checkbox] {
     width: 18px;
     height: 18px;
-    margin: 0px 5px 0px 0;
+    margin-right: 10px;
 }
-
+/* ASIDE - seção de de filtro por cores */
 .chbox-cores {
     display: flex;
     margin: 10px 0;
