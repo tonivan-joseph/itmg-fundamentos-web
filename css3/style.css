@@ -28,15 +28,22 @@ img {
     max-width: 100%;
 }
 
+/* Aplicação de gradiente dento aba prmoção */
 .aba-promocao {
-    background-color: #008F43;
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
     height: 33px;
     width: 100%;
 }
 .aba-promocao p {
-    color: #F9E106;
+    color: #f90612;
     text-align: center;
     padding: 8px;
+}
+/* Aplicações de Psueldo elementos no projeto */
+.aba-promocao p:hover{
+    color: #fa4f00;
+    font-size: 18px;
+    padding: 10px;
 }
 
 .cabecario {
