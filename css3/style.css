@@ -331,6 +331,10 @@ img {
     padding: 10px;
 }
 
+.img-vetrine-02 {
+    box-shadow: 2px 2px 1px 5px rgb(238, 229, 229);
+}
+
 .div-coluna-vitrine > div p {
     padding: 5px 0;
     font-size: 1rem;
@@ -345,6 +349,11 @@ img {
     color: #000;
 }
 
+/* Aplicação de efeito nos rodapes das imagen da página de categoriais */
+.vetrine > div p a{
+    color: #3D3D3D;
+}
+
 /*Slider segundários*/
 .div-slider-secundario {
     display: flex;
@@ -357,6 +366,8 @@ img {
 .div-img01  {
     display: block;
     padding-right: 10px;
+    opacity: .95;
+    transition: 400ms;
 }
 
 .div-img02  {
