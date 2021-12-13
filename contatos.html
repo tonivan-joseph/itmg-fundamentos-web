@@ -3,6 +3,7 @@
 <!-- ----------------------------- -->
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,13 +11,14 @@
     <title>Moda Stylus</title>
     <link rel="stylesheet" href="./css3/style.css">
 </head>
+
 <body>
     <!-- Caberçalho do site onde fica a Logo da marca e menus, formulários de pesquisas, scolas de compras, favoritos e perfil do usuário-->
     <header class="div-header">
         <div class="aba-promocao">
-           <p>Fretes Grátis acima de *R$ 50 para todo Brasil</p> 
+            <p>Fretes Grátis acima de *R$ 50 para todo Brasil</p>
         </div>
-        <div class="cabecario"> 
+        <div class="cabecario">
             <!-- logo -->
             <div class="logo">
                 <a href="index.html"><img src="./image/logo.png" alt="Logo do Site"></a>
@@ -24,7 +26,7 @@
             <!-- Formulario de pesquisas -->
             <div class="div-pesquisa">
                 <form action="" class="form-pesquisa">
-                    <input type="search" id="nome" value="O que vc procura?"/>
+                    <input type="search" id="nome" value="O que vc procura?" />
                 </form>
             </div>
             <!-- seção que fica o perfil sacola e favorite -->
@@ -57,8 +59,9 @@
             </ul>
         </nav>
     </header>
+
     <div class="main-pai">
-        <aside  class="div-aside">
+        <aside class="div-aside">
             <div class="div-filtrar">
                 <span>FIRLTRAR</span>
             </div>
@@ -150,30 +153,42 @@
             </div>
         </aside>
 
-        <!-- Seção da vetrine -->
-        <section class="section-form">
-            <h2>Contatos</h2>
-            <h3>Ainda ficou com dúvida? Nos conta será um prezer te responder!</h3>
-            <form class="div-form" action="">
-                <label>Nome:</label>
-                <input type="name" name="nome" id="">
-                <label>Email:</label>
-                <input type="email" name="email">
-                <label>Texto:</label>
-                <textarea id="ms"></textarea>
-                <button class="bt-form">Enviar!</button>
-            </form>
-        </section>
-        <!-- fim da seção  -->
+        <div class="main-contato">
+            <!-- Seção da vetrine -->
+            <section class="section-form">
+                <h2>Contatos</h2>
+                <h3>Ainda ficou com dúvida? Nos conta será um prezer te responder!</h3>
+                <form class="div-form" action="">
+                    <label>Nome:</label>
+                    <input type="name" name="nome" id="">
+                    <label>Email:</label>
+                    <input type="email" name="email">
+                    <label>Texto:</label>
+                    <textarea id="ms"></textarea>
+                    <button class="bt-form">Enviar!</button>
+                </form>
+            </section>
+            <!-- fim da seção  -->
+
+            <!-- Seção do Iframe onde colocaremos um scripts do mapa do google para localização do endreço da loja -->
+            <section class="local-maps">
+                <h3>Nos Econtre Aqui</h3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7510.154143214742!2d-47.90698557761539!3d-19.751879849181837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bacfc7659e41cf%3A0x89f8204678a1d4f4!2sManhattan%2C%20Uberaba%20-%20MG!5e0!3m2!1spt-BR!2sbr!4v1639360772582!5m2!1spt-BR!2sbr"
+                    width="450" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </section>
+        </div>
+
     </div>
     <!-- FIM SEÇÃO CORPOS DOS SEÇÕES DOS SITES -->
+
     <!-- seção da newsllater -->
     <section class="alin-newsletter">
         <div class="newsletter">
             <h4>Não Perca Nenhuma Novidade</h4>
             <form action="">
-                <input type="nome" id="nome" value="Nome"/>
-                <input type="email" id="email" value="Deixe seu E-mail"/>
+                <input type="nome" id="nome" value="Nome" />
+                <input type="email" id="email" value="Deixe seu E-mail" />
                 <button>-></button>
             </form>
         </div>
@@ -258,7 +273,7 @@
                 <h4>Segurança</h4>
                 <img src="./image/icons/seguranca.png" alt="Logo Site seguro">
             </div>
-        </div>    
+        </div>
         <!-- roda pé -->
         <div class="footer-rodape">
             <div class="logo-rodape">
@@ -266,10 +281,12 @@
             </div>
             <div class="info-rodape">
                 <p>Moda Stylus é uma marca da DBR Comércio de Artigos do Vestuário S.A. / CNPJ: 00.000.000/0000-00
-                    Endereço: Rua Centro, 1069, 1º. Andar - Sala 10A - Edifício Manhattans - 38.000-207 - Uberaba - MG</p>
+                    Endereço: Rua Centro, 1069, 1º. Andar - Sala 10A - Edifício Manhattans - 38.000-207 - Uberaba - MG
+                </p>
             </div>
         </div>
     </footer>
 
 </body>
+
 </html>

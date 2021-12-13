@@ -3,6 +3,9 @@
   -- ----------------------------- --*/
 /* Resetando o códigos do site */
 
+/*
+ *Aqui onde colocamos as fontes do sites que vem direto do do site google fonts puxando aqui do css3
+*/
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;200;300;400;500;600;700;800;900&display=swap');
 *{
     padding: 0;
@@ -418,6 +421,11 @@ img {
 }
 /*fim formulario newsletter*/
 
+/* Esterelização do container contatos  */
+.main-contato{
+    display: block;
+}
+
 /* Esterelização de formulários da página CONTATOS */
 
 .section-form {
@@ -494,6 +502,20 @@ img {
 
 .div-form > button:hover {
     background-color: #b16400;
+}
+
+/* Esterelizando a seção local-maps da localização do mapa */
+.local-maps {
+    display: block;
+    width: 1020px;
+    max-width: 100%;
+    /* background-color: #F8F8F8; */
+    margin: 40px 0 0px 20px;
+}
+
+.local-maps h3 {
+    font-size: medium;
+    padding: 10px 0;
 }
 
 /*Esterelizando o rodapé footer*/
